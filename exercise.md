@@ -1,4 +1,4 @@
-#### Compare two JSON objects:
+### Compare two JSON objects:
 ```js
 let obj1 = {name: "Person1", age: 5};
 let obj2 = {age: 5, name: "Person1"};
@@ -13,9 +13,10 @@ for(let key in obj1) {
 }
 console.log("Given two objects are " + equalFlag);
 ```
-> Output: Given two objects are equal
+- Output:
+> Given two objects are equal
 
-#### Display flags in console
+### Display flags in console
 - Used https://restcountries.com/v3.1/all api and one country didn't have flag set so it has undefined value.
 - I concatanated country flags so it will be easy to output as compared to printing each flag on different line.
 ```js
@@ -41,7 +42,7 @@ xhr.send();
 - Output:
 > 🇦🇫 🇸🇩 🇧🇮 🇲🇽 🇨🇺 🇷🇸 🇲🇨 🇧🇹 🇬🇾 🇬🇸 🇧🇦 🇧🇳 🇵🇰 🇰🇪 🇵🇷 🇸🇴 🇸🇯 🇸🇱 🇵🇫 🇦🇿 🇨🇰 🇵🇪 🇧🇻 🇲🇵 🇦🇴 🇨🇬 🇸🇸 🇲🇫 🇹🇷 🇦🇮 🇰🇳 🇦🇼 🇹🇨 🇹🇼 🇸🇪 🇱🇷 🇻🇪 🇻🇮 🇧🇲 🇦🇱 🇭🇰 🇱🇺 🇪🇷 🇨🇴 undefined 🇲🇳 🇾🇪 🇱🇧 🇦🇬 🇻🇳 🇵🇼 🇯🇪 🇹🇹 🇮🇱 🇧🇬 🇵🇹 🇬🇮 🇸🇲 🇸🇬 🇸🇽 🇸🇦 🇬🇭 🇲🇩 🇹🇩 🇦🇶 🇬🇧 🇵🇬 🇹🇫 🇺🇲 🇧🇿 🇰🇲 🇧🇫 🇫🇴 🇬🇳 🇮🇳 🇨🇼 🇹🇬 🇹🇳 🇧🇱 🇮🇩 🇫🇲 🇦🇹 🇹🇯 🇨🇩 🇾🇹 🇷🇪 🇷🇴 🇶🇦 🇱🇹 🇨🇳 🇳🇿 🇳🇫 🇲🇷 🇺🇿 🇫🇮 🇨🇲 🇭🇲 🇩🇲 🇮🇸 🇴🇲 🇲🇰 🇱🇮 🇪🇸 🇬🇷 🇵🇾 🇧🇭 🇳🇺 🇸🇳 🇲🇸 🇱🇻 🇹🇰 🇯🇵 🇨🇫 🇬🇦 🇮🇶 🇮🇲 🇲🇲 🇲🇪 🇳🇷 🇻🇺 🇫🇷 🇿🇼 🇵🇭 🇸🇰 🇦🇺 🇨🇮 🇮🇴 🇸🇿 🇷🇼 🇧🇯 🇻🇬 🇺🇬 🇮🇪 🇮🇷 🇸🇮 🇲🇱 🇨🇭 🇦🇸 🇺🇾 🇬🇺 🇸🇷 🇺🇦 🇨🇿 🇭🇳 🇼🇸 🇱🇦 🇨🇻 🇪🇹 🇧🇩 🇸🇭 🇧🇾 🇭🇷 🇰🇼 🇬🇫 🇲🇦 🇷🇺 🇪🇪 🇱🇰 🇳🇨 🇵🇱 🇲🇬 🇨🇷 🇸🇻 🇲🇴 🇦🇩 🇮🇹 🇳🇦 🇸🇨 🇵🇦 🇭🇹 🇦🇷 🇳🇪 🇲🇼 🇵🇳 🇩🇪 🇰🇮 🇸🇾 🇲🇭 🇭🇺 🇰🇾 🇩🇰 🇱🇨 🇧🇴 🇩🇯 🇿🇦 🇳🇬 🇸🇹 🇳🇮 🇬🇵 🇵🇲 🇪🇨 🇬🇱 🇬🇩 🇧🇸 🇨🇱 🇲🇾 🇹🇻 🇨🇽 🇸🇧 🇹🇿 🇰🇵 🇬🇼 🇽🇰 🇻🇦 🇳🇴 🇵🇸 🇨🇨 🇯🇲 🇪🇬 🇰🇭 🇲🇺 🇬🇲 🇬🇶 🇱🇸 🇲🇶 🇺🇸 🇪🇭 🇦🇪 🇲🇿 🇩🇿 🇿🇲 🇬🇹 🇰🇷 🇰🇬 🇹🇱 🇦🇽 🇯🇴 🇲🇹 🇨🇾 🇫🇰 🇰🇿 🇧🇼 🇻🇨 🇧🇧 🇹🇴 🇹🇭 🇧🇪 🇨🇦 🇬🇪 🇼🇫 🇫🇯 🇳🇱 🇦🇲 🇩🇴 🇬🇬 🇹🇲 🇳🇵 🇲🇻 🇱🇾 🇧🇷
 
-#### Display country details:
+### Display country details:
 ```js
 let xhr = new XMLHttpRequest();
 
